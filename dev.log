@@ -1,0 +1,75 @@
+
+> internhup@0.0.0 dev
+> concurrently -n api,web -c gray,gray "npm:server" "vite"
+
+[api] 
+[api] > internhup@0.0.0 server
+[api] > node server/index.js
+[api] 
+[web] 
+[web]   [32m[1mVITE[22m v8.3.2[39m  [2mready in [0m[1m580[22m[2m[0m ms[22m
+[web] 
+[web]   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5175[22m/[39m
+[web] [2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[api] [db] seeded sample applications
+[api] [server] http://localhost:3001  (db: sqlite)
+[web] [2m6:53:51 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'M_ID')
+[web] [39m > Y chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:761
+[web]  > E chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:1442
+[web] 
+[web] [2m6:53:51 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'M_ID')
+[web] [39m > Y chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:761
+[web]  > E chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:1442
+[web] 
+[web] [2m6:53:51 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'M_ID')
+[web] [39m > Y chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:761
+[web]  > E chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:1442
+[web] 
+[web] [2m6:53:51 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'M_ID')
+[web] [39m > Y chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:761
+[web]  > E chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:1442
+[web] 
+[web] [2m6:54:23 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'M_ID')
+[web] [39m > Y chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:761
+[web]  > E chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:1442
+[web] 
+[web] [2m6:54:23 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'M_ID')
+[web] [39m > Y chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:761
+[web]  > E chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:1442
+[web] 
+[web] [2m6:54:23 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'M_ID')
+[web] [39m > Y chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:761
+[web]  > E chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:1442
+[web] 
+[web] [2m6:54:23 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'M_ID')
+[web] [39m > Y chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:761
+[web]  > E chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:1442
+[web] 
+[web] [2m6:54:25 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'M_ID')
+[web] [39m > Y chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:761
+[web]  > E chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:1442
+[web] 
+[web] [2m6:54:26 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'M_ID')
+[web] [39m > Y chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:761
+[web]  > E chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:1442
+[web] 
+[web] [2m6:54:27 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'M_ID')
+[web] [39m > Y chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:761
+[web]  > E chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:1442
+[web] 
+[web] [2m6:54:27 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'M_ID')
+[web] [39m > Y chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:761
+[web]  > E chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:1442
+[web] 
+[web] [2m6:54:28 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'M_ID')
+[web] [39m > Y chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:761
+[web]  > E chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:1442
+[web] 
+[web] [2m6:54:28 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'M_ID')
+[web] [39m > Y chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:761
+[web]  > E chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:1442
+[web] 
+[web] [2m6:54:29 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'M_ID')
+[web] [39m > Y chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:761
+[web]  > E chrome-extension:/eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js:1:1442
+[web] 
